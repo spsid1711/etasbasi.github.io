@@ -1,38 +1,56 @@
----
-layout: default
-title: Home
----
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<head>
+	<head>
+		<title>Enes Tasbasi</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+		<!-- FONTS -->
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+		<link href='https://fonts.googleapis.com/css?family=Noticia+Text:700italic,400italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
+		gem 'wdm', '~> 0.1.0' if Gem.win_platform?
+	</head>
+	<body>
+		
+				<nav class="navbar navbar-default">
+		  			<div class="container-fluid">
+			    		<div class="navbar-header">
+			      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span> 
+			      				</button>
+			      				<a class="navbar-brand" href="#">Enes Tasbasi</a>
+			    			</div>
+			    		<div class="collapse navbar-collapse" id="myNavbar">
+					      	<ul class="nav navbar-nav">
+						        <li class="active"><a href="index.html">Home</a></li>
+						        <li><a href="articles.html">Articles</a></li>
+				      		</ul>
+			      			<!-- <ul class="nav navbar-nav navbar-right">
+						        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			      			</ul> -->
+			    		</div>
+		  			</div>
+				</nav>
+			<div class="container">
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+				<div class="row">
+					<div class="col-md-6"><img  class="img-responsive profilePic"src="images/IMG_0330.jpg" alt="Enes Profile Picture"></div>
+					<div class="col-md-6">
+						<h1 class="headerFirst">Bio</h1>
+						<p>I was born in Istanbul and lived five years in Sudan, one year in Moldova, and I am living in United States since 2014.  </p>
+					</div>
+				</div>
+			</div>
+
+			
+	</body>
+
 
