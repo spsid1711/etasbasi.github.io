@@ -1,7 +1,6 @@
 ---
 layout: post
-title: What is HTML
-date: 2015-11-25
+title: How to Begin Programming
 ---
 
 
