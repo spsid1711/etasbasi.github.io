@@ -1,0 +1,35 @@
+
+
+.container {
+	background-color: #b3ffb3;
+}
+
+.profilePic {
+	width: 350px;
+	height: 520px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.headerFirst {
+	margin-left: 40px;
+	font-family: 'Noticia Text', serif;
+}
+
+p {
+	font-family: 'IM Fell English', serif;
+	font-size: 17px;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------media 480------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 480px) {
+	.container {
+		width: 100% !important;
+	}
+}
