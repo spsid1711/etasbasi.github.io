@@ -3,7 +3,10 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
+
 url: "https://etasbasi.github.io"
+
+
 
 highlighter: rouge
 
@@ -13,8 +16,7 @@ highlighter: rouge
 # then add in the baseurl here, like this: "/repository-name"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
-
-// baseurl: 
+baseurl: /mahatma-gandhi
 
 # Google tracking id to track your visitors
 
@@ -43,7 +45,7 @@ favicon: "/img/india_640.png"
 
 //black-favicon: "/img/india.jpg"
 
-background-img: "../img/unnamed.jpg"
+background-img: "/img/unnamed.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -104,7 +106,7 @@ paginate: 5
 # pocket-share: false
 # vkontakte-share: false
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "etasbasi"
 
 syntax-highlight: True
 
@@ -114,19 +116,40 @@ syntax-highlight: True
 
 
 events:
-  - image: "/img/timeline/tura.jpg"
-    date: "June 2016 - Today"
-    description: "First timeline event"
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/baby2.jpg"
+    date: "Oct 2 1869"
+    description: "Mohandas Karamchand Gandhi was born in Porbandar, a coastal town in present-day Gujarat, India, on 2 October 1869."
+  - image: "/img/timeline/schollflag.gif"
+    date: "1876"
+    description: "Mohandes Gandhi Begins Primary School in Rajkot."
+  - image: "/img/timeline/highscholl.jpg"
+    date: "1881"
+    description: "Mohandes Gandhi Enters High School in Rajkot."
+  - image: "/img/timeline/1884.gif"
+    date: "1884"
+    description: "Mohandes Gandhi Enters Rebellious Adolescent Phase, Engaging in Activities He Will Soon Reject."
+  - image: "/img/timeline/1884.gif"
+    date: "1885"
+    description: "Mohandes Gandhi's Father Dies at 63."
+  - image: "/img/timeline/1888.jpg"
+    date: "September 8, 1888"
+    description: "Mohandes Gandhi Travels to London to Train as a Barrister."
+  - image: "/img/timeline/1888.jpg"
+    date: "June 12, 1891"
+    description: "Mohandes Gandhi Returns to India from London After Passing the Bar"
+#   - image: "/img/timeline/tura.jpg"
+#     date: "June 2016 - Today"
+#     description: "First timeline event"
+#   - image: "/img/timeline/spidertocat.png"
+#     date: "September 2013"
+#     description: "Saving the neighborhood!"
+#   - image: "/img/timeline/baracktocat.jpg"
+#     date: "September 2007 - August 2013"
+#     description: "Started coding"
 
-# First image of the Timeline
+# # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+ timeline-img: "/img/timeline/default.png"
 
 ###########
 # Contact #
@@ -175,7 +198,7 @@ email: "your@email.here"
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+#  Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
