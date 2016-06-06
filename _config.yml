@@ -131,8 +131,7 @@ events:
     date: "1885"
     description: "Mohandes Gandhi's Father Dies at 63. His father’s death had strained the means of the family.
      Being the only boy in the family who had persevered in his studies, its hopes rested on him and he was sent to Bhavnagar, 
-     the nearest town with a college. Unfortunately for Mohan the teaching was in English. He was unable to follow the lectures 
-     and despaired of making any progress."
+     the nearest town with a college."
   - image: "/img/timeline/1888.jpg"
     date: "September 4, 1888"
     description: "Mohandes Gandhi Travels to London to Train as a Barrister."
@@ -163,14 +162,50 @@ events:
   - image: "/img/timeline/resized_return.jpg"
     date: "January 9, 1915"
     description: "Gandhi Receives Hero's Welcome Upon Returning to India from South Africa."
-
-
-
+  - image: "/img/timeline/resized_movement.jpg"
+    date: "Septermber 1920"
+    description: "The Gandhi Era of the Indian Independence Movement Begins with the Non-Cooperation Movement."
+  - image: "/img/timeline/resized_authority.jpg"
+    date: "December 1921"
+    description: "Gandhi is Given Exclusive Authority Over the Indian National Congress."
+  - image: "/img/timeline/resized_prison.jpg"
+    date: "March 10, 1922"
+    description: "Gandhi is Arrested by the British Government on Charges of Inciting Violence at Chauri Chaura."
+  - image: "/img/timeline/resized_home.jpg"
+    date: "February 1924"
+    description: "Gandhi is Released from Prison After Serving Only Two Years of a Six-Year Sentence Following Surgery for Appendicitis."
+  - image: "/img/timeline/resized_book.jpg"
+    date: "1927"
+    description: "Gandhi's 'The Story of My Experiments with Truth' is Published."
+  - image: "/img/timeline/resized_independence.jpg"
+    date: "Janunary 26, 1930"
+    description: "Declaration of the Independence of India."
+  - image: "/img/timeline/resized_salt.jpg"
+    date: "March 12, 1930"
+    description: "Mahatma Gandhi Embarks on the Salt Satyagraha. The Salt Satyagraha was a campaign of nonviolent protest against the British salt tax in colonial India which began with the Salt March to Dandi."
+  - image: "/img/timeline/resized_arrive.jpg"
+    date: "April 6, 1930"
+    description: "Mahatma Gandhi Arrives at Dandi, Gujarat, Concluding the Salt March."
+  - image: "/img/timeline/resized_retirement.jpg"
+    date: "September 17, 1934"
+    description: "Gandhi Announces Retirement from Politics to Focus on Village Economics."
+  - image: "/img/timeline/resized_kasturba.jpg"
+    date: "February 22, 1944"
+    description: "Kasturba Gandhi Dies at Age 74."
+  - image: "/img/timeline/resized_kingdom.jpg"
+    date: "June 15, 1947"
+    description: "United Kingdom Passes the Indian Independence Act 1947."
+  - image: "/img/timeline/resized_map.jpg"
+    date: "August 15, 1947"
+    description: "The Partition of India."
+  - image: "/img/timeline/resized_grave.jpg"
+    date: "January 30, 1948"
+    description: "Mohandas Karamchand Gandhi is Assassinated by Nathuram Godse."
 
 
  # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/india2.png"
 
 ###########
 # Contact #
@@ -187,7 +222,7 @@ email: "etasbasi@outlook.com"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+# author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
