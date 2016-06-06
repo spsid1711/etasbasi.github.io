@@ -3,12 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-
 url: "https://etasbasi.github.io"
-
-
-
-highlighter: rouge
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -16,7 +11,8 @@ highlighter: rouge
 # then add in the baseurl here, like this: "/repository-name"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
-baseurl: /mahatma-gandhi
+
+# baseurl: /personal-jekyll-theme
 
 # Google tracking id to track your visitors
 
@@ -35,17 +31,17 @@ force-https: True
 lang: "en"
 author: "Enes Tasbasi"
 title: "{ Mahatma Gandhi }"
-description: ""
-keywords: "India, Freedom"
+description: "This website is made to describe Mahatma Gandhi's life."
+keywords: "india, freedom, gandhi"
 favicon: "/img/india_640.png"
 
 ################
 # Header layout #
 ################
 
-//black-favicon: "/img/india.jpg"
+# black-favicon: "/img/india.jpg"
 
-background-img: "/img/unnamed.jpg"
+background-img: "../img/unnamed.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -64,13 +60,13 @@ lines: # You can add HTML Tags in the Text
   - text: "An eye for eye only ends up making the whole world blind."
   - text: "You must be the change you wish to see in the world."
 
-me-img: "/img/gandhi.jpg"
+me-img: "/img/resized_gandhi.jpg"
 
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#ffffff"
-apple-status-bar-style: "white"
+color-browser: "#000000"
+apple-status-bar-style: "black"
 
 ################
 # Web app mode #
@@ -95,16 +91,16 @@ post-preview-words: 96
 
 paginate: 5
 
-# email-share: false
-# fb-share: false
-# twitter-share: false
-# linkedin-share: false
-# reddit-share: false
-# google-plus-share: false
-# tumblr-share: false
-# pinterest-share: false
-# pocket-share: false
-# vkontakte-share: false
+email-share: false
+fb-share: false
+twitter-share: false
+linkedin-share: false
+reddit-share: false
+google-plus-share: false
+tumblr-share: false
+pinterest-share: false
+pocket-share: false
+vkontakte-share: false
 
 disqus-shortname: "etasbasi"
 
@@ -116,46 +112,71 @@ syntax-highlight: True
 
 
 events:
-  - image: "/img/timeline/baby2.jpg"
+  - image: "/img/timeline/resized_baby.jpg"
     date: "Oct 2 1869"
     description: "Mohandas Karamchand Gandhi was born in Porbandar, a coastal town in present-day Gujarat, India, on 2 October 1869."
-  - image: "/img/timeline/schollflag.gif"
+  - image: "/img/timeline/resized_flag.png"
     date: "1876"
     description: "Mohandes Gandhi Begins Primary School in Rajkot."
-  - image: "/img/timeline/highscholl.jpg"
+  - image: "/img/timeline/resized_highschool.jpg"
     date: "1881"
     description: "Mohandes Gandhi Enters High School in Rajkot."
-  - image: "/img/timeline/1884.gif"
+  - image : "/img/timeline/resized_couple.jpg"
+    date: "May 1883"
+    description: "The 13-year old Mohandas was married to 14-year old Kasturbai Makhanji in an arranged child marriage, as was the custom in the region."
+  - image: "/img/timeline/resized_1884.jpg"
     date: "1884"
     description: "Mohandes Gandhi Enters Rebellious Adolescent Phase, Engaging in Activities He Will Soon Reject."
-  - image: "/img/timeline/1884.gif"
+  - image: "/img/timeline/resized_father.jpg"
     date: "1885"
-    description: "Mohandes Gandhi's Father Dies at 63."
+    description: "Mohandes Gandhi's Father Dies at 63. His father’s death had strained the means of the family.
+     Being the only boy in the family who had persevered in his studies, its hopes rested on him and he was sent to Bhavnagar, 
+     the nearest town with a college. Unfortunately for Mohan the teaching was in English. He was unable to follow the lectures 
+     and despaired of making any progress."
   - image: "/img/timeline/1888.jpg"
-    date: "September 8, 1888"
+    date: "September 4, 1888"
     description: "Mohandes Gandhi Travels to London to Train as a Barrister."
-  - image: "/img/timeline/1888.jpg"
+  - image: "/img/timeline/resized_teen.jpg"
     date: "June 12, 1891"
-    description: "Mohandes Gandhi Returns to India from London After Passing the Bar"
-#   - image: "/img/timeline/tura.jpg"
-#     date: "June 2016 - Today"
-#     description: "First timeline event"
-#   - image: "/img/timeline/spidertocat.png"
-#     date: "September 2013"
-#     description: "Saving the neighborhood!"
-#   - image: "/img/timeline/baracktocat.jpg"
-#     date: "September 2007 - August 2013"
-#     description: "Started coding"
+    description: "Mohandes Gandhi Returns to India from London After Passing the Bar."
+  - image: "/img/timeline/resized_africa.jpg"
+    date: "April 1893"
+    description: "Mohandes Gandhi Travels to South Africa to Work Under a Year-Long Contract with Dada Abdulla & Co., an Indian Firm."
+  - image: "/img/timeline/resized_statue.jpg"
+    date: "May 1893"
+    description: "Mahatma Gandhi is Ejected from a South African Train, Motivating Him to Fight for Indian Rights in the British Colony."
+  - image: "/img/timeline/resized_congress.jpg"
+    date: "August 22 1894"
+    description: "Mohandes Gandhi Founds the Natal Indian Congress. Gandhi realized that what the India urgently needed was a permanent organization to look after their interests."
+  - image: "/img/timeline/resized_soldier.jpg"
+    date: "1899"
+    description: "Gandhi Organizes an Indian Ambulance Corps of 1100 Men During His Service in the Boer War."
+  - image: "/img/timeline/resized_house.jpg"
+    date: "November 1904"
+    description: "Gandhi Founds the Phoenix Settlement. Influenced by the teachings of Ruskin, Gandhi purchased a farm at Phoenix, near Mount Edgecombe in 1904 in order to establish a communal settlement."
+  - image: "/img/timeline/resized_protest.jpg"
+    date: "September 11, 1906"
+    description: "Gandhi Introduces Non-Violent Protest Philosophy of Satyagraha. "
+  - image: "/img/timeline/resized_arrest.jpg"
+    date: "January 10, 1908"
+    description: "Gandhi is Arrested for the First Time, for Refusing to Carry an Obligatory ID Card in South Africa."
+  - image: "/img/timeline/resized_return.jpg"
+    date: "January 9, 1915"
+    description: "Gandhi Receives Hero's Welcome Upon Returning to India from South Africa."
 
-# # First image of the Timeline
 
- timeline-img: "/img/timeline/default.png"
+
+
+
+ # First image of the Timeline
+
+timeline-img: "/img/timeline/default.png"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "etasbasi@outlook.com"
 
 ################
 # Author Blurb #
@@ -165,8 +186,8 @@ email: "your@email.here"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-# author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-# author_blurb_image: "/img/author.png"
+author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
@@ -188,7 +209,7 @@ email: "your@email.here"
 # 404 page #
 ############
 
-404-img: "/img/page-not-found.jpg"
+404-img: "/img/labtocat.png"
 
 ################################################################################
 
