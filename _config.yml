@@ -109,13 +109,20 @@ syntax-highlight: True
 
 
 events:
-  - image: "/img/timeline/resized_baby.jpg"
-    date: "Oct 2 1869"
-    description: "Mohandas Karamchand Gandhi was born in Porbandar, a coastal town in present-day Gujarat, India, on 2 October 1869."
+  - image: "/img/timeline/black.jpg"
+    date: "2015"
+    description: "Started programming :smirk:"
+  - image: "/img/timeline/black.jpg"
+    date: "2014"
+    description: "Came to the United States."
+  - image: "/img/timeline/black.jpg"
+    date: "January 13, 2000"
+    description: "Born in Istanbul, Turkey"
+
 
  # First image of the Timeline
 
-timeline-img: "/img/timeline/india2.png"
+timeline-img: "/img/timeline/black.jpg"
 
 ###########
 # Contact #
