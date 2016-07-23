@@ -32,7 +32,7 @@ lang: "en"
 author: "Enes Tasbasi"
 title: "{ Enes Tasbasi }"
 description: "This is a personal website of Enes Tasbasi"
-keywords: "technology"
+keywords: "technology, blog, programming"
 favicon: "/img/favicon.ico"
 
 ################
@@ -139,7 +139,7 @@ email: "etasbasi@outlook.com"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "Enes Tasbasi is a software developer who was born in Turkey, and currently lives in the United States."
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/IMG_0166.jpg"
 
 ##################
 # Social Buttons #
